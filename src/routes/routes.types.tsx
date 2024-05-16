@@ -3,7 +3,7 @@ import { ReactNode } from "react";
 export type RouteType = { 
     id: string;
     //state: string;
-    path: string; 
+    path?: string; 
     element?: ReactNode;
     child?: RouteType[];
     //sidebarProps?: {
