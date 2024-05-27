@@ -1,0 +1,1 @@
+export const baseAPI = () => window.location.host === 'localhost:3000' ? 'url': `${window.location.origin}/financed_emission`

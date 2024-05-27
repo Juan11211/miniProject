@@ -8,7 +8,7 @@ import { routes } from './routes/index'
 
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <React.Fragment>
