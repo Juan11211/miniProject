@@ -1,8 +1,9 @@
 import { configureStore } from "@reduxjs/toolkit";
-import { combineReducers } from "redux"
+import { combineReducers } from "redux";
+import notesSetStateSlice from "../redux/features/noteSlice";
 
 const reducer = combineReducers({
-    notesStateSlice: notesStateSlice
+    notesSetStateSlice: notesSetStateSlice
 })
 
 export const store = configureStore({

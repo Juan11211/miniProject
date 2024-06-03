@@ -6,16 +6,14 @@ export type RouteType = {
     path?: string; 
     element?: ReactNode;
     child?: RouteType[];
-    //sidebarProps?: {
-    //     displayText: string;
-    //     icon?: ReactNode;
-    //     hidden?: Boolean;
-    // };
+    sidebarProps?: {
+        displayText: string;
+        icon?: ReactNode;
+        //hidden?: boolean;
+    };
 };
 
-export const textMapping = { 
-    Notes: 'Admin Note'
-}
+
 
 
 
